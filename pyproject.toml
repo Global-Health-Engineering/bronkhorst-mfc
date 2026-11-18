@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bronkhorst-mfc"
+version = "0.1.0"
+description = "Bronkhorst mass flow controllers for lab sweeps: find units by serial, set gas mixes, log readback"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["propar>=1.1", "pyserial>=3.5"]
+
+[project.scripts]
+bronkhorst-mfc = "bronkhorst_mfc.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

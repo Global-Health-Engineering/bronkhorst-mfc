@@ -1,0 +1,7 @@
+{
+  "_comment": "Copy to rig.json and fill in serial numbers from `python -m bronkhorst_mfc list`. fluid is the gas the unit must be on; it is selected and checked on connect.",
+  "units": {
+    "ch4": {"serial": "124M00030914TT", "fluid": "CH4"},
+    "aux": {"serial": "FILL-IN-SINGLE-UNIT", "fluid": "AIR"}
+  }
+}
